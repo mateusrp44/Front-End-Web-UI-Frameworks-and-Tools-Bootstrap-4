@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
     <link href="css/styles.css" rel="stylesheet">
-    <title>Ristorante Con Fusion</title>
+    <title>Ristorante con Fusion: home</title>
 </head>
 <body>
     <nav class="navbar navbar-dark navbar-expand-md fixed-top">
@@ -78,34 +78,34 @@
                                 <label for="guests" class="col-12 col-sm-12 col-md-2 col-form-label">Number of Guests</label>
                                 <div class="form-check col-12 col-sm-12 col-md-8 justify-content-start">
                                     <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest1" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
                                         <span class="custom-control-description">1</span>
+                                        <input type="radio" id="guest1" name="guests" value="">
+                                        <span class="custom-control-indicator"></span>
                                     </label>
                                     <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest2" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
                                         <span class="custom-control-description">2</span>
+                                        <input type="radio" id="guest2" name="guests" value="">
+                                        <span class="custom-control-indicator"></span>
                                     </label>
                                     <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest3" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
                                         <span class="custom-control-description">3</span>
+                                        <input type="radio" id="guest3" name="guests" value="">
+                                        <span class="custom-control-indicator"></span>
                                     </label>
                                     <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest4" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
                                         <span class="custom-control-description">4</span>
+                                        <input type="radio" id="guest4" name="guests" value="">
+                                        <span class="custom-control-indicator"></span>
                                     </label>
                                     <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest5" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
                                         <span class="custom-control-description">5</span>
+                                        <input type="radio" id="guest5" name="guests" value="">
+                                        <span class="custom-control-indicator"></span>                        
                                     </label>
                                     <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="guest6" name="guests" value="">
-                                        <span class="custom-control-indicator"></span>
                                         <span class="custom-control-description">6</span>
+                                        <input type="radio" id="guest6" name="guests" value="">
+                                        <span class="custom-control-indicator"></span>                        
                                     </label>
                                 </div>
                             </div>
@@ -155,7 +155,7 @@
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
-                    <h1>Ristorante Con Fusion</h1>
+                    <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col-12 col-sm align-self-center">
@@ -504,28 +504,6 @@
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
-    <script>
-        $("#carouselButton").click(function(){
-            if($("#carouselButton").children("span").hasClass('fa-pause')) {
-                $("#mycarousel").carousel('pause');
-                $("#carouselButton").children("span").removeClass('fa-pause');
-                $("#carouselButton").children("span").addClass('fa-play');
-            }
-            else if($("#carouselButton").children("span").hasClass('fa-play')) {
-                $("#mycarousel").carousel('cycle');
-                $("#carouselButton").children("span").removeClass('fa-play');
-                $("#carouselButton").children("span").addClass('fa-pause');
-            }
-        });
-        /*$(document).ready(function(){
-            $("#mycarousel").carousel( { interval: 2000 } );
-            $("#carousel-pause").click(function(){
-                $("#mycarousel").carousel('pause');
-            });
-            $("#carousel-play").click(function(){
-                $("#mycarousel").carousel('cycle');
-            });
-        });*/
-    </script>
+    <script src="js/scripts.js"/script>
 </body>
 </html>
