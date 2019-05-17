@@ -21,8 +21,13 @@
   "devDependencies": {
     "bootstrap": "^4.3.1",
     "cssmin": "^0.4.3",
+    "grunt": "^1.0.4",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.0.2",
     "htmlmin": "0.0.7",
     "imagemin-cli": "^4.0.1",
+    "jit-grunt": "^0.10.0",
     "jquery": "^3.4.1",
     "lite-server": "^2.4.0",
     "node-sass": "^4.12.0",
@@ -30,6 +35,7 @@
     "parallelshell": "^3.0.2",
     "popper.js": "^1.15.0",
     "rimraf": "^2.6.3",
+    "time-grunt": "^2.0.0",
     "uglifyjs": "^2.4.11",
     "usemin-cli": "^0.5.1"
   },
